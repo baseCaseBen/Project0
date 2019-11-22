@@ -6,6 +6,55 @@ h1{
 
 }
 
+@media(max-width: 499px){
+  #welcome::before{
+    content: "Welcome!"
+  }
+  #intro::before{
+    content: "Introduction"
+  }
+
+  #scores::before{
+    content: "2019 Scores"
+  }
+
+  .what::before{
+    content:"What is it?";
+  }
+
+  #bGames::before{
+    content: "Favortite Games:"
+  }
+
+}
+
+
+
+@media(min-width: 500px){
+  #welcome::before{
+    content: "Welcome to my Webpage!!!"
+  }
+  #intro::before{
+    content: "Introduction to me (Ben)"
+  }
+
+  #scores::before{
+    content: "Here are some scores from the 2019 season"
+  }
+
+  #rWhat::before{
+    content:"What exactly is rifle as a sport?";
+
+  }
+  #lWhat::before{
+    content: "What exactly is Letterboxing?";
+  }
+
+  #bGames::before{
+    content:"What board games are my favorite?"
+  }
+}
+
 
 
 .intScore

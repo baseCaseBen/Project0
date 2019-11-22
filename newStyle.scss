@@ -1,0 +1,15 @@
+@media(max-width:499px){
+    .what::before{
+      content:"What is it?";
+    }
+}
+
+@media(min-width:500px){
+  #rWhat::before{
+    content:"What exactly is rifle as a sport?";
+
+  }
+  #lwhat::before{
+    content: "What exactly is Letterboxing?"
+  }
+}

@@ -6,6 +6,11 @@ h1{
 
 }
 
+.intScore
+{
+  color: #6b2b00;
+}
+
 ul{
 
 }
@@ -13,6 +18,7 @@ ul{
 h3{
   color:#074520;
 }
+
 h4, h2{
   margin-left: 20px;
   color: #142904

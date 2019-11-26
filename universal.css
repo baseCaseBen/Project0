@@ -26,11 +26,20 @@ h1{
     content: "Favortite Games:"
   }
 
+  #things::before{
+    content:"Who am I?"
+  }
+
 }
 
 
 
 @media(min-width: 500px){
+
+  #things::before{
+    content: "Here are some things about me!"
+  }
+
   #welcome::before{
     content: "Welcome to my Webpage!!!"
   }

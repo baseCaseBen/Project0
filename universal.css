@@ -31,9 +31,9 @@ h1{
   }
 
 }
-
-
-
+button{
+  background-color: #032609;
+}
 @media(min-width: 500px){
 
   #things::before{
